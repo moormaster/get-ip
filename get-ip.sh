@@ -9,7 +9,7 @@ PARAM_IPV6_WEBCHECK_URL="http://checkipv6.dyndns.com/"
 PARAM_VERBOSE=0
 
 usage() {
-  echo "$0 <-4 | --ipv4 | -6 | --ipv6> [-i <url>|--ipv4-webcheck-url <url>] [-j <url> | --ipv6-webcheck-url <url>] [-v  | --verbose]" 1>&2
+  echo "Usage: $0 <-4 | --ipv4 | -6 | --ipv6> [-i <url>|--ipv4-webcheck-url <url>] [-j <url> | --ipv6-webcheck-url <url>] [-v  | --verbose]" 1>&2
   echo "  -4 | --ipv4" 1>&2
   echo "    query IPv4 address from ipv4 webcheck url" 1>&2
   echo "  -6 | --ipv6" 1>&2
