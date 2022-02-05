@@ -1,5 +1,5 @@
 # GetIp
-Bash script to query the current ip.  
+Bash script to query the current external IPv4 or IPv6.
   
 To be used with [ddclient](https://github.com/ddclient/ddclient)
 
